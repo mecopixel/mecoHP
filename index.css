@@ -51,11 +51,11 @@ img {
 	width: calc(33.3% - 4px);
 }
 
-@media (max-width: 600px) {
+/* @media (max-width: 500px) {
 	#container img {
 		width: calc(50% - 2px);
 	}
-}
+} */
 
 #about-in p{
   text-align: center;
