@@ -1,0 +1,96 @@
+#header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between; 
+  align-items: top;  
+  text-align: right;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#header-left {
+  display: flex;
+  align-items: flex-end;
+  min-width: 320px;
+}
+#top {
+  height: 800px;
+}
+a {
+  color: gray;
+}
+h1 {
+  font-weight: normal;
+}
+h2 {
+  font-style: normal;
+  text-align: center;
+}
+body {
+  text-align: center;
+  min-width: 380px;
+}
+img {
+  max-width: 380px;
+  width: 100%;
+      
+}
+.haikei {
+  background-color: bisque;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0.6;
+}
+
+#container {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 4px;
+	padding: 2px;
+}
+
+#container a {
+	width: calc(33.3% - 4px);
+}
+
+@media (max-width: 600px) {
+	#container img {
+		width: calc(50% - 2px);
+	}
+}
+
+#about-in p{
+  text-align: center;
+}
+#about-in {
+  text-align: left;
+  margin-bottom: 5%;
+}
+
+#bottom {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  text-align: right;
+  margin-bottom: 3%;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+.icon-circle{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  overflow: hidden;
+  position: relative;
+}
+
+.icon-circle img{
+  width: 100%;
+  height: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+
